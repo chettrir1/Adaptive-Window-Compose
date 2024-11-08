@@ -20,5 +20,4 @@ interface FeedScope {
         contentType: (index: Int) -> Any? = { null },
         itemContent: @Composable LazyGridItemScope.(index: Int) -> Unit,
     )
-
 }

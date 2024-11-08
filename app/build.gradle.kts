@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.chettri.feed_compose"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.chettri.feed_compose"
@@ -37,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -48,6 +47,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material3.window.size)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.coil.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
