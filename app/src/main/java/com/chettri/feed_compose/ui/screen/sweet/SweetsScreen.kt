@@ -1,4 +1,4 @@
-package com.chettri.feed_compose.ui.screen
+package com.chettri.feed_compose.ui.screen.sweet
 
 import android.widget.Toast
 import androidx.compose.foundation.border

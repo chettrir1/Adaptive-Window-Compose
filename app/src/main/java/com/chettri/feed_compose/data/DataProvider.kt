@@ -260,5 +260,5 @@ object DataProvider {
     )
     val chocolates = sweets.filter { Category.Chocolate == it.category }
     val misc = sweets.filter { Category.Misc == it.category }
-
+    fun getSweetsById(id: Int): Sweets = sweets[id]
 }

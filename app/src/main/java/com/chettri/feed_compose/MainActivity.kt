@@ -10,7 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.ui.Modifier
-import com.chettri.feed_compose.ui.screen.SweetsScreen
+import com.chettri.feed_compose.ui.FeedComposeApp
 import com.chettri.feed_compose.ui.theme.FeedcomposeTheme
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SweetsScreen(windowSizeClass = calculateWindowSizeClass(activity = this))
+                    FeedComposeApp(windowSizeClass = calculateWindowSizeClass(activity = this))
                 }
             }
         }
